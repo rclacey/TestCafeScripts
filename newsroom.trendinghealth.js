@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 
-fixture `newsroom.featuresupdates`
-    .page `https://newsroom.clevelandclinic.org/category/features-updates/`;
+fixture `newsroom.trendinghealth`
+    .page `https://newsroom.clevelandclinic.org/category/trending-health-news/`;
 
 test('New Test', async t => {
     await t
